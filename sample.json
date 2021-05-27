@@ -1,0 +1,57 @@
+{"intents": [
+        {"tag" : "greetings",
+        "patterns": ["Hi","Hello","Whats up","How are you?","Hi Chatbot","hi chatbot","Hi chatbot","Good Morning","Good evening","Good Evening","Hello chatbot","Hello Chatbot"],
+        "responses": ["Hello!!!","Hii","How are You?","I'm doing Great","Hello User","Hello Visitor"],
+        "context_set": [""]
+        },
+        {"tag" : "goodbye",
+        "patterns": ["See you again","See you later","Goodbye","Im leaving","Have a Good Day","Have a nice day","Talk to you later","See you later"],
+        "responses": ["Goodbye","See you soon","See you later","Have a Nice Day","Have a nice weekend"],
+        "context_set": [""]
+        },
+        {"tag" : "name",
+        "patterns": ["What is your name?","Whats your name?"],
+        "responses": ["Im a Medical Assistant Chatbot","My name is Dr Chatbot"],
+        "context_set": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I provide Medical Assistance to Mental Health Issues", "I can help you figure out the cause of your Mental illness & provide Solutions"],
+         "context": [""]
+        },
+        {"tag": "sleep",
+         "patterns": ["Get disturbed while sleeping", "Unable to Sleep early", "Feel Sleepless during the day", "Wake up suudenly in the middle of the night", "Negative thoughts while sleeping"],
+         "responses": ["Reduce your Screen time from Electronic Devices","Get around 7-9 hours of Sleep","Medicate or Exercise for 15-30 mins to regulate your Mind","Avoid afternoon naps and plan a fixed sleeping schedule"],
+        "context": [""]
+        },
+        {"tag": "headache_issues",
+         "patterns": ["Cannot concentrate","Cannot focus","Headache pain","Feeling anxious",""],
+         "responses": ["Look for potential short breaks during work","Keep yourself Dehydrated","Massage your Scalp and get Sufficient sleep"],
+         "context": [""]
+        },
+        {"tag" : "Social_anxiety",
+        "patterns": ["I feel insecure at Weddings/parties/events.","Feel insecure around people.","People dont talk to me.","I feel lonely."],
+        "responses": ["You need to Socialise more because only then you will be able to Mix up with People.Get together with like minded People who understand you Better.",
+                "Talk to your Closed ones about your Problem. Be it Family,Friends or even mentors who may guide you to the Problem.",
+                "Know your Strengths and remember that you are Unique in Yourself. When some approaches, remember that you need to keep things simple. Often Shy people Overthink a lot."],
+        "context_set": [""]
+        },
+        {"tag" : "adddiction_remedy",
+        "patterns": ["How can i cure Addiction?","Is there a way to cure Alcohol abuse?","How to Quit smoking?","How to Quit Alcohol?","Can you Help me in Curing Addictions?","Treatment for curing addictions?","Cope up with addictions"],
+        "responses": ["Although a professional physchiatrist is Needed, you can try Dopamine Fasts where you quit all pleasing activities for 1-2 days which helps in Bringing down Dopamine release. Also buid your Willpower to Overcome withdrawls so that you Don't Loose Hope. ",
+                "Try seeking new habits which are equally Pleasing to you yet healthy, which should help in reducing your Addictions.The goal is to replace Bad with Good.Still it is recommended to Consult a Professional Doctor.",
+                "Start with cutting your Addiction consumption with less amounts, then increasing further reductions. The key here is to plan a Long term Strategy.Also get some help from a Professional."],
+        "context_set": [""]
+        },
+        {"tag" : "addiction_causes",
+        "patterns": ["I am suffering from Alcohol consumption","I smoke a lot","Drink Alcohol","Smoke cigarettes","Suffering from Drug abuse","What causes adddiction","What causes adddiction according to you?"],
+        "responses": ["Addiction is a result of high levels of Dopamine chemical release from Brain. Dopamine gives haapy feel after any task hence your Brain loves Addictions","Human Brain releases High levels of Dopamine when subjected to Substance Abuse. The high levels of Dopamine is what keeps your Mood regulated despite Harmful Addictions."],
+        "context_set": [""]
+        }
+        ]
+}
